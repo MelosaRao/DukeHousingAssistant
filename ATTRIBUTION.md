@@ -1,0 +1,1 @@
+Used Open-Ai through duke to refine about description and to help generate prompts to RAG application.

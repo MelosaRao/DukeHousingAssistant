@@ -1,0 +1,70 @@
+﻿prompt_id,System prompt,question_prompt,Question,Response,Expected Response
+1,You are a helpful AI Housing assistant for Duke University students.,"Please provide an answer based only on the provided context. - If the user asks an open-ended question, respond in detail (100-120 words). - If it is a specific question, respond briefly (1-2 sentences). - If the answer is not found in the context, respond with 'I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.'. - At the end of your response, list the sources in a formatted way. Question: {user_input}. Context: {context} Format Example: Answer: [Generated Response] Sources: 1. [URL1] 2. [URL2] ",How do I do laundry at duke?,"Answer: Laundry machines are available in designated laundry rooms located throughout all Duke residence halls. For many students, these machines are DukeCard and coin-operated, allowing for payment using either method. However, some residence halls, particularly those for first-year students, offer free laundry services. This service is managed by Duke Vending. If you encounter a broken machine or require reimbursement due to lost money, you should contact Duke Vending directly at 919-684-8363. Additionally, your HRL Campus Office can assist you in reaching out to Duke Vending for machine repairs. For any other issues related to the laundry facilities, you can call the East Campus Office at 919-684-5320 or contact your HRL Campus Office.
+
+Sources:
+1. https://students.duke.edu/living/housing/first-year-housing/what-to-expect-in-residence-halls/
+2. https://students.duke.edu/living/housing/upperclass-housing/new-to-duke/
+3. https://students.duke.edu/living/housing/amenities-services/","DukeCard and coin-operated laundry machines are located in laundry rooms throughout the residence halls. This service is provided through Duke Vending. To report broken machines or to request reimbursement when money is lost in the machines, call Duke Vending at 684-8363. Your HRL Campus Office will be happy to help you contact Duke Vending to get machines repaired. To report any other problems with the laundry facilities please call your HRL Campus Office."
+1,You are a helpful AI Housing assistant for Duke University students.,"Please provide an answer based only on the provided context. - If the user asks an open-ended question, respond in detail (100-120 words). - If it is a specific question, respond briefly (1-2 sentences). - If the answer is not found in the context, respond with 'I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.'. - At the end of your response, list the sources in a formatted way. Question: {user_input}. Context: {context} Format Example: Answer: [Generated Response] Sources: 1. [URL1] 2. [URL2] ",Who is the RC of randolph,"Answer: The Residence Coordinator for Randolph is Leah Benn Miller.
+
+Sources:
+
+https://students.duke.edu/living/housing/first-year-housing/east-campus-houses/",The RC(residential coordinator) of randolph is Leah Benn Miller
+1,You are a helpful AI Housing assistant for Duke University students.,"Please provide an answer based only on the provided context. - If the user asks an open-ended question, respond in detail (100-120 words). - If it is a specific question, respond briefly (1-2 sentences). - If the answer is not found in the context, respond with 'I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.'. - At the end of your response, list the sources in a formatted way. Question: {user_input}. Context: {context} Format Example: Answer: [Generated Response] Sources: 1. [URL1] 2. [URL2] ",Who is Brandon Fain,I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.,Something to the effect of I don't know or can't find information on this
+2,You are a helpful AI Housing assistant for Duke University students.,"Answer the question using only the following context: {context} Question: {user_input} If the answer is not in the context, say you are not sure and provide available sources. Keep the answer brief unless the question is open-ended.",How do I do laundry at duke?,"Laundry machines are located in laundry rooms throughout the residence halls. Some residence halls are equipped with free laundry machines, while others have DukeCard and coin-operated machines. This service is provided through Duke Vending.
+
+To report broken machines or request reimbursement when money is lost, call Duke Vending at 919-684-8363. Your HRL Campus Office can also help you contact Duke Vending for repairs. To report any other problems with the laundry facilities, you can call the East Campus Office at 919-684-5320 or your HRL Campus Office.","DukeCard and coin-operated laundry machines are located in laundry rooms throughout the residence halls. This service is provided through Duke Vending. To report broken machines or to request reimbursement when money is lost in the machines, call Duke Vending at 684-8363. Your HRL Campus Office will be happy to help you contact Duke Vending to get machines repaired. To report any other problems with the laundry facilities please call your HRL Campus Office."
+2,You are a helpful AI Housing assistant for Duke University students.,"Answer the question using only the following context: {context} Question: {user_input} If the answer is not in the context, say you are not sure and provide available sources. Keep the answer brief unless the question is open-ended.",Who is the RC of randolph,The Residence Coordinator for Randolph is Leah Benn Miller.,The RC(residential coordinator) of randolph is Leah Benn Miller
+2,You are a helpful AI Housing assistant for Duke University students.,"Answer the question using only the following context: {context} Question: {user_input} If the answer is not in the context, say you are not sure and provide available sources. Keep the answer brief unless the question is open-ended.",Who is Brandon Fain,"I am not sure who Brandon Fain is, as that name is not mentioned in the provided context.",Something to the effect of I don't know or can't find information on this
+3,You are a helpful AI Housing assistant for Duke University students.,"Please provide an answer based only on the provided context.
+- If the user asks an open-ended question, respond in detail (100-120 words).
+- If it is a specific question, respond briefly (1-2 sentences).
+- If the answer is not found in the context, respond with 
+  'I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.'.
+- At the end of your response, list the sources in a formatted way.
+Question: {user_input}
+Context:
+{context}
+Format Example:
+Answer: [Generated Response]
+Sources:
+1. [URL1]
+2. [URL2]",How do I do laundry at duke?,"Answer: Laundry machines are located in laundry rooms throughout the residence halls. These machines are either free or operated using your DukeCard or coins.
+Sources:
+
+https://students.duke.edu/living/housing/first-year-housing/what-to-expect-in-residence-halls/
+https://students.duke.edu/living/housing/upperclass-housing/new-to-duke/
+https://students.duke.edu/living/housing/amenities-services/","DukeCard and coin-operated laundry machines are located in laundry rooms throughout the residence halls. This service is provided through Duke Vending. To report broken machines or to request reimbursement when money is lost in the machines, call Duke Vending at 684-8363. Your HRL Campus Office will be happy to help you contact Duke Vending to get machines repaired. To report any other problems with the laundry facilities please call your HRL Campus Office."
+3,You are a helpful AI Housing assistant for Duke University students.,"Please provide an answer based only on the provided context.
+- If the user asks an open-ended question, respond in detail (100-120 words).
+- If it is a specific question, respond briefly (1-2 sentences).
+- If the answer is not found in the context, respond with 
+  'I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.'.
+- At the end of your response, list the sources in a formatted way.
+Question: {user_input}
+Context:
+{context}
+Format Example:
+Answer: [Generated Response]
+Sources:
+1. [URL1]
+2. [URL2]",Who is the RC of randolph,"Answer: The Residence Coordinator for Randolph is Leah Benn Miller.
+Sources:
+
+https://students.duke.edu/living/housing/first-year-housing/east-campus-houses/
+https://students.duke.edu/living/housing/first-year-housing/east-campus-houses/#main-content",The RC(residential coordinator) of randolph is Leah Benn Miller
+3,You are a helpful AI Housing assistant for Duke University students.,"Please provide an answer based only on the provided context.
+- If the user asks an open-ended question, respond in detail (100-120 words).
+- If it is a specific question, respond briefly (1-2 sentences).
+- If the answer is not found in the context, respond with 
+  'I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.'.
+- At the end of your response, list the sources in a formatted way.
+Question: {user_input}
+Context:
+{context}
+Format Example:
+Answer: [Generated Response]
+Sources:
+1. [URL1]
+2. [URL2]",Who is Brandon Fain,I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.,Something to the effect of I don't know or can't find information on this
+,,,,,
