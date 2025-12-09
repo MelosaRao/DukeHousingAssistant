@@ -48,7 +48,7 @@ For a score of 2 it has few correct details but misses a lot, for 3 it gets abou
 RAs and CAs may not enroll in more than five (5) units, per semester without approval from their supervisor. 
 RAs and CAs must also remain in good conduct and disciplinary standing with the university at all times. This includes adhering to all University and Housing & Residence Life policies as outlined in the Duke Community Standard Guide and Housing License. 
 Must be willing to adhere to all positional conditions and expectations outlined in the position description.'
-Overall over 15 queries the average score was 4.25/5 which is pretty high and suggest in my qualitative evaluation the chatbot is doing good.
+Overall over 15 queries the average score was 4.36/5 which is pretty high and suggest in my qualitative evaluation the chatbot is doing good.
 
 For a quantitative metric, I used semantic similarity with sentence embeddings, which gives a score between 0 and 1 based on meaning rather than exact wording. This gives a more reliable measure of how close the model's answer is to the expected answer. Check 'quantitative_evaluation.ipynb' for details.
 
