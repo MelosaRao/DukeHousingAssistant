@@ -50,7 +50,7 @@ RAs and CAs must also remain in good conduct and disciplinary standing with the 
 Must be willing to adhere to all positional conditions and expectations outlined in the position description.'
 Overall over 15 queries the average score was 4.25/5 which is pretty high and suggest in my qualitative evaluation the chatbot is doing good.
 
-For a quantitative metric, I used semantic similarity with sentence embeddings, which gives a score between 0 and 1 based on meaning rather than exact wording. This gives a more reliable measure of how close the model's answer is to the expected answer. Check 'qualitative_evaluation.ipynb' for details.
+For a quantitative metric, I used semantic similarity with sentence embeddings, which gives a score between 0 and 1 based on meaning rather than exact wording. This gives a more reliable measure of how close the model's answer is to the expected answer. Check 'quantitative_evaluation.ipynb' for details.
 
 After running the semantic similarity evaluation between my expected answers and the model’s chat responses, the average similarity score came out to 0.7059. A score of 1 would mean the answers are nearly identical in meaning, while 0 would mean they are totally unrelated. So a score of around 0.70 shows that, on average, the model is capturing most of the intended meaning, even if it phrases things differently or adds extra context. This lines up with what I saw qualitatively: the chatbot usually gives the right information, but sometimes adds more detail or words things in a slightly different way. Overall, a similarity score of ~0.71 indicates that the model is performing well and staying close to the expected responses.
 
