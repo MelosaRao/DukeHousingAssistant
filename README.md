@@ -1,6 +1,4 @@
 # DukeHousingAssistant
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 ## About
 This project implements a fully functional Retrieval-Augmented Generation (RAG) system designed to serve as an intelligent Duke Housing Assistant. The system automatically crawls and extracts high-quality text from dozens of official Duke housing webpages, preprocesses and tokenizes the content, and stores it in a FAISS vector database using semantic sentence embeddings. When a user asks a question, the system performs semantic similarity search to retrieve the most relevant housing information and then sends this context to a state-of-the-art language model (Google Gemini) to generate accurate, grounded responses with proper citations. The final application is deployed through an interactive Gradio chatbot interface, allowing students to ask open-ended or specific housing questions and receive detailed, reliable, and source-linked answers in real time.
 
@@ -12,7 +10,12 @@ Some important files:
 - Custom_text.py: allows you to add custom_text to the database by replacing custom_text and custom_source variables with appropriate values.
 
 ## Quick Start
-Click on this link to do to the web deployed version on hugging face:
+Click on this link to do to the web deployed version on hugging face: https://huggingface.co/spaces/Melosa/DukeHousingAsssistant
+
+Quick Note: If you are running on hugging face please open the links to webpages in a new tab. It generally opens in the new tab automatically. But if it tries to open in the same tab as hugging face chatbot window it might have some issues. This is nothing to do with the codebase just how hugging face is hosted I believe.
+
+Also hugging face setup uses my api key which has rate limits. If you want to ask a lot of questions please set up locally with your own api key.
+
 (you might have to wait a few minutes for it to initialise and then you can chat with the chatbot) 
 
 Or to setup locally: 
@@ -27,8 +30,9 @@ Or to setup locally:
 - Then on terminal run 'run python app.py' to launch the chatbot locally.
 
 ## Video Links
-- demo:
-- technical walkthrough:
+- demo: https://drive.google.com/file/d/15f5HihP7Q7JMpGtELcJKtzFi_RH7x7FJ/view?usp=sharing
+- technical walkthrough:https://drive.google.com/file/d/1yizRbXiA8iTplbW5fErJJJXSnEVxXQSv/view?usp=sharing
+
 
 ## Prompt Engineering Evaluation
 Results are included in prompt-analysis.csv. I tried 3 differnt prompts (with id 1,2,3).
@@ -49,6 +53,24 @@ Overall over 15 queries the average score was 4.25/5 which is pretty high and su
 For a quantitative metric, I used semantic similarity with sentence embeddings, which gives a score between 0 and 1 based on meaning rather than exact wording. This gives a more reliable measure of how close the model's answer is to the expected answer. Check 'qualitative_evaluation.ipynb' for details.
 
 After running the semantic similarity evaluation between my expected answers and the model’s chat responses, the average similarity score came out to 0.7059. A score of 1 would mean the answers are nearly identical in meaning, while 0 would mean they are totally unrelated. So a score of around 0.70 shows that, on average, the model is capturing most of the intended meaning, even if it phrases things differently or adds extra context. This lines up with what I saw qualitatively: the chatbot usually gives the right information, but sometimes adds more detail or words things in a slightly different way. Overall, a similarity score of ~0.71 indicates that the model is performing well and staying close to the expected responses.
+
+Another good thing about this is that in tries to retain context for example from the evaluation.csv you can see that these two were back to back question and answers:
+- question: i need help with mailing packages
+- answer: For assistance with mailing packages at Duke, Duke Campus Mail Services offers various resources. You can learn how to properly address mail and packages for on-campus students. For parcels requiring special handling or for perishable items, specific information is available. If you need to track down a missing or delayed package, guidance is provided. You can also find out how mail enters the Duke Campus Mail system and how you will be notified when your packages are ready for pick up. The Student Mailbox Center service window is available for packages that are too large to fit into a standard mailbox. Additionally, information regarding forwarding mail and parcels is also provided. 
+
+Sources:
+
+https://students.duke.edu/living/housing/amenities-services/
+https://students.duke.edu/living/housing/amenities-services/#main-content
+https://students.duke.edu/living/housing/first-year-housing/frequently-asked-questions/#main-content
+https://students.duke.edu/living/housing/first-year-housing/frequently-asked-questions/
+
+- question: what address do i use for this. I live in blackwell
+- answer: The address to use for Blackwell is 51 Brodie Gym Drive. You would also include your Box Number, Residence Hall, and Room Number on Address Line 2.
+
+
+Question context is infered from the one before it knows that it needs to give the mailing address
+
 
 ## Edge cases
 - When asked information that the model does not know it should reply -> 'I'm not sure. I cannot find the information in the provided documents but if there are some matching sources I will list them below.' And this behavior is consistent with its replies when asked questions like 'who is brandon fain'- something the model has no knowlegde of (check evaluation.csv result 3)

@@ -1,9 +1,12 @@
 Web Version (Hugging Face)
 
-Click the link below to open the deployed chatbot:
-Hugging Face Space Link
+Click the link below to open the deployed chatbot: https://huggingface.co/spaces/Melosa/DukeHousingAsssistant
 
 Note: The application may take 1–3 minutes to initialize if it is sleeping.
+
+Quick Note: If you are running on hugging face please open the links to webpages in a new tab. It generally opens in the new tab automatically. But if it tries to open in the same tab as hugging face chatbot window it might have some issues. This is nothing to do with the codebase just how hugging face is hosted I believe.
+
+Also hugging face setup uses my api key which has rate limits. If you want to ask a lot of questions please set up locally with your own api key.
 
 Local Installation
 
