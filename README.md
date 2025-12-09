@@ -6,7 +6,7 @@ Some important files:
 - extract_database.py: use web scraping to gather all required URLs for RAG database
 - rag.py: builds faiss_db_housing using the above URLs if it does not exists and test it with sample query. 
 - app.py main file which when run lauches gradio UI. Contains code for entire chatbot app with multiconversaton system and history tracking.
--test_rag.py: Test a query by replacing the question variable and running this files. Allows for test without running chatbot. 
+- test_rag.py: Test a query by replacing the question variable and running this files. Allows for test without running chatbot. 
 - Custom_text.py: allows you to add custom_text to the database by replacing custom_text and custom_source variables with appropriate values.
 
 ## Quick Start
